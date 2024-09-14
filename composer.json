@@ -1,5 +1,5 @@
 {
-    "name": "henryust12/my-php-package",
+    "name": "henryust12/henryust12-php-package",
     "description": "My First Composer Package",
     "type": "library",
     "scripts": {

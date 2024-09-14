@@ -1,7 +1,10 @@
 {
-    "name": "henry/my-php-package",
+    "name": "henryust12/my-php-package",
     "description": "My First Composer Package",
     "type": "library",
+    "scripts": {
+        "test": "pest"
+    },
     "require": {
         "guzzlehttp/guzzle": "8.0.x-dev",
         "pestphp/pest": "3.x-dev"
@@ -13,7 +16,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Henry\\MyPhpPackage\\": "src/"
+            "Henryust12\\MyPhpPackage\\": "src/"
         }
     },
     "authors": [
